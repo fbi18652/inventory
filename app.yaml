@@ -1,0 +1,12 @@
+runtime: php73
+runtime_config: 
+  document_root: inventory-290507.appspot.com/inventory
+handlers:
+  - url: /css
+    static_dir: css
+env_variables:
+  MYSQL_HOST: mysql:urlx_socket=/cloudsql/inventory-290507:asia-southeast1:inventory-for-php
+  MYSQL_DB: inventory
+  MYSQL_USER: root
+  MYSQL_PASS:
+  

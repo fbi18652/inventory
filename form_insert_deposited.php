@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-	//session_start();
+	session_start();
     error_reporting(E_ERROR | E_WARNING | E_PARSE);
 	include('connection/phpconnect.php');
 ?>

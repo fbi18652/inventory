@@ -5,9 +5,9 @@
     //$action = $_REQUEST['action'];
     if (isset($_REQUEST['action'])) {
         $action = $_REQUEST['action'];
-        } else {
-        $action = 'all';
-        }
+    } else {
+    $action = 'all';
+    }
     $day = date("Y-m-d");
     $month = date("Y-m");
     $search = (isset($_GET['search'])) ? $_GET['search'] : '';

@@ -1,6 +1,6 @@
 runtime: php73
 runtime_config: 
-  document_root: rmuti-coop-inventory.et.r.appspot.com 
+  document_root: rmuti-coop-inventory.et.r.appspot.com
 handlers:
   - url: /css
     static_dir: css

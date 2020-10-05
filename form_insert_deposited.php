@@ -14,7 +14,7 @@
     <meta name="keywords" content="Co-Op Project">
 
     <!-- Title Page-->
-    <title>Log Insert</title>
+    <title>Deposited Insert</title>
     <link rel="icon" href="images/icon/true2.png" type="image/icon type">
 
     <!-- Fontfaces CSS-->

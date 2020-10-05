@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+	include('connection/phpconnect.php');
 	session_start();
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
-	include('connection/phpconnect.php');
     $strSQL = "SELECT`location`.`num_lo`, `location`.`id_mat`, `location`.`id_store`, `store`.`storename` , `location`.`id_shelf`, `shelf`.`name`, `location`.`amount`
     FROM `location`
     JOIN store ON `location`.`id_store` = `store`.`id_store`

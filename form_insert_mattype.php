@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+	include('connection/phpconnect.php');	
 	session_start();
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
-	include('connection/phpconnect.php');	
 	$strSQL = "SELECT * FROM users WHERE username = '".$_SESSION['username']."' ";
 	$objQuery = mysqli_query($db, $strSQL);
     $objResult = mysqli_fetch_array($objQuery);	

@@ -1,8 +1,8 @@
 runtime: php73
 runtime_config: 
-  document_root: rmuti-coop-inventory.et.r.appspot.com
+  document_root: rmuti-coop-inventory.et.r.appspot.com/inventory
 handlers:
-  - url: /css
+  - url: /inventory/css
     static_dir: css
 env_variables:
   MYSQL_HOST: mysql:urlx_socket=/cloudsql/rmuti-coop-inventory:asia-southeast1:mysql-rmuti-coop

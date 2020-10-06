@@ -45,7 +45,7 @@ if($result->num_rows==0)
 						$ubdate = mysqli_query($db, $sqlup);
 					}
 					$sql="INSERT INTO `process_log` (`no`, `id_mat`, `id_emp`, `action`, `amount`, `date`)
-					VALUES ('W$no','$id_mat','$id_emp','$action','$amount','$date')";
+					VALUES ('$no','$id_mat','$id_emp','$action','$amount','$date')";
 					$insert = mysqli_query($db, $sql);
 					echo "<script type='text/javascript'>";
 					echo "alert('ทำรายการสำเร็จ');";
@@ -83,7 +83,7 @@ if($result->num_rows==0)
 			$insert1 = mysqli_query($db, $sqllof);
 		}
 		$sql="INSERT INTO `process_log` (`no`, `id_mat`, `id_emp`, `action`, `amount`, `date`)
-		VALUES ('R$no','$id_mat','$id_emp','$action','$amount','$date')";
+		VALUES ('$no','$id_mat','$id_emp','$action','$amount','$date')";
 		$insert = mysqli_query($db, $sql);
 		//echo $sql;
 		echo "<script type='text/javascript'>";
@@ -110,7 +110,7 @@ if($result->num_rows==0)
 			$insert1 = mysqli_query($db, $sqllo);
 		}
 		$sql="INSERT INTO `process_log` (`no`, `id_mat`, `id_emp`, `action`, `amount`, `date`)
-		VALUES ('D$no','$id_mat','$id_emp','$action','$amount','$date')";
+		VALUES ('$no','$id_mat','$id_emp','$action','$amount','$date')";
 		$insert = mysqli_query($db, $sql);
 		//echo $sql;
 		echo "<script type='text/javascript'>";

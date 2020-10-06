@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 	include('connection/phpconnect.php');
 	session_start();
     error_reporting(E_ERROR | E_WARNING | E_PARSE);
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">

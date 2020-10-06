@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <?php
 	include('connection/phpconnect.php');
 	session_start();
@@ -10,6 +9,8 @@
 		echo "</script>";
     }
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">

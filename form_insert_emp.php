@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 	include('connection/phpconnect.php');	
 	session_start();
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
-//$strSQL = "SELECT * FROM users WHERE username = '".$_SESSION['username']."' ";
-//$objQuery = mysqli_query($db, $strSQL);
-    //$objResult = mysqli_fetch_array($objQuery);	
     if($_SESSION['username'] == ""){
 		echo "<script type='text/javascript'>";
 		echo "window.location = 'index.php'; ";
 		echo "</script>";
     }
-    if($_SESSION['username'] == ""){
-		echo "<script type='text/javascript'>";
-		echo "window.location = 'index.php'; ";
-		echo "</script>";
-	}
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">

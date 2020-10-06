@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 	include('connection/phpconnect.php');
 	session_start();
@@ -12,6 +10,8 @@
 	$objQuery = mysqli_query($db, $strSQL);
 	$objResult = mysqli_fetch_array($objQuery);
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
